@@ -10,8 +10,8 @@ jobs:
             branch: main
           run_phase: after_success
           output_format: cyclonedx-json
-#          input_dir: '/sbom/ruby'
-#          output_dir: '/sbom/ruby'
+          input_dir: '/sbom/ruby'
+          output_dir: '/sbom/ruby'
       script:
         - gem build ./ruby/hello_world.gemspec
         - pwd
