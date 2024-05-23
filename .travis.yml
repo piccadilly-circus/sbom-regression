@@ -14,5 +14,7 @@ jobs:
           output_dir: '/sbom/ruby'
       script:
         - gem build ./ruby/hello_world.gemspec
-        - ls -l ./sbom/ruby
+        - pwd
+        - ls -l
+#        - ls -l ./sbom/ruby
   
