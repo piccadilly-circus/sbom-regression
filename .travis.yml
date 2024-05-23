@@ -16,5 +16,5 @@ jobs:
         - gem build ./ruby/hello_world.gemspec
         - pwd
         - ls -la /home/travis/build/piccadilly-circus/sbom-regression
-#        - ls -l ./sbom/ruby
+        - ls -la /home/travis/build/
   
