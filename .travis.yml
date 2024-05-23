@@ -15,6 +15,6 @@ jobs:
       script:
         - gem build ./ruby/hello_world.gemspec
         - pwd
-        - ls -la /home/travis/build
+        - ls -la /home/travis/build/piccadilly-circus
 #        - ls -l ./sbom/ruby
   
