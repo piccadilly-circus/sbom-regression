@@ -8,8 +8,6 @@ jobs:
         sbom:
           on:
             all_branches: true
-          input_dir: "sbom/ruby"
-          output_dir: "sbom/ruby"
       script:
         - gem build ./ruby/hello_world.gemspec
         - pwd
