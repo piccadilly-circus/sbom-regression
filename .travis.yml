@@ -1,15 +1,15 @@
 jobs:
   include:
-    - name: Linux Focal Ruby
-      os: linux
+    - os: linux
       dist: focal
+      name: "SBOM generation example job"
       language: ruby
       addons:
         sbom:
           on:
             all_branches: true
-          input_dir: 'sbom/ruby'
-          output_dir: 'sbom/ruby'
+          input_dir: "sbom/ruby"
+          output_dir: "sbom/ruby"
       script:
         - gem build ./ruby/hello_world.gemspec
         - pwd
