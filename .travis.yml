@@ -17,7 +17,6 @@ jobs:
         - pwd
         - ls -la /home/travis/build/
         - ls -la /home/travis/build/piccadilly-circus/sbom-regression
-        - cat /home/travis/build/piccadilly-circus/sbom-regression/deployable_application-1.0.gem
         - ls -la /home/travis/build/
         - ls -la ~
   
