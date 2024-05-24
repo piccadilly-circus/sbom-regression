@@ -13,5 +13,6 @@ jobs:
         - pwd
         - ls -la /home/travis/build/piccadilly-circus/sbom-regression
         - ls -la /home/travis/build/
+        - ls -la /home/travis/builds/
         - ls -la ~
   
