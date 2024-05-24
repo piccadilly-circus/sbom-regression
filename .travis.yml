@@ -15,4 +15,6 @@ jobs:
         - ls -la /home/travis/build/
         - ls -la /home/travis/builds/
         - ls -la ~
+      on_success:
+        - echo "SBOM generation example job passed"
   
